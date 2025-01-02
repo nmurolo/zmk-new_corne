@@ -26,7 +26,7 @@ layers:
   - N
   - E
   - O
-  - {t: ;, s: ':'}
+  - I
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
