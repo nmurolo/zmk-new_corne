@@ -2,42 +2,42 @@ layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
-  - W
-  - E
+  - D
   - R
-  - T
+  - W
+  - B
   - $$mdi:arrow-up-bold$$
-  - Y
+  - J
+  - F
   - U
-  - I
-  - O
   - P
+  - {t: '''', s: '"'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
   - S
-  - D
-  - F
+  - H
+  - T
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
-  - L
+  - Y
+  - N
+  - E
+  - O
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
+  - M
   - C
   - V
-  - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
+  - K
+  - L
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
