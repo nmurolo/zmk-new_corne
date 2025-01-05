@@ -27,7 +27,7 @@ layers:
   - E
   - O
   - I
-  - RIGHT WIN
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
