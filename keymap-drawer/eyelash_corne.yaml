@@ -1,5 +1,5 @@
 layers:
-  QDRWB:
+  MAC:
   - $$mdi:keyboard-esc$$
   - Q
   - D
@@ -13,7 +13,7 @@ layers:
   - P
   - {t: '''', s: '"'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td1'
+  - '&td0'
   - A
   - S
   - H
@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - LGUI
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
@@ -146,3 +146,52 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  WINDOWS:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - D
+  - R
+  - W
+  - B
+  - $$mdi:arrow-up-bold$$
+  - J
+  - F
+  - U
+  - P
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&td1'
+  - A
+  - S
+  - H
+  - T
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - Y
+  - N
+  - E
+  - O
+  - I
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - M
+  - C
+  - V
+  - MUTE
+  - $$mdi:arrow-down-bold$$
+  - K
+  - L
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - $$mdi:apple-keyboard-option$$
