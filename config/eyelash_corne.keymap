@@ -66,10 +66,10 @@
         layer0 {
             display-name = "MAC";
             bindings = <
-&kp ESCAPE      &kp Q  &kp D  &kp R     &kp W        &kp B                            &kp UP                &kp J      &kp F            &kp U      &kp P    &kp SINGLE_QUOTE  &kp BACKSPACE
-&td0            &kp A  &kp S  &kp H     &kp T        &kp G                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N            &kp E      &kp O    &kp I             &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp M     &kp C        &kp V    &kp K_MUTE              &kp DOWN              &kp K      &kp L            &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
-                              &kp LGUI  &lt 1 ENTER  &kp TAB                                                &kp SPACE  &lt 2 BACKSPACE  &kp RALT
+&kp ESCAPE      &kp Q  &kp D  &kp R     &kp W  &kp B                            &kp UP                &kp J      &kp F  &kp U      &kp P    &kp SINGLE_QUOTE  &kp BACKSPACE
+&td0            &kp A  &kp S  &kp H     &kp T  &kp G                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N  &kp E      &kp O    &kp I             &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp M     &kp C  &kp V    &kp K_MUTE              &kp DOWN              &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
+                              &kp LGUI  &mo 1  &kp TAB                                                &kp SPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -78,10 +78,10 @@
         layer1 {
             display-name = "NUMBER";
             bindings = <
-&trans          &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6     &kp N7    &kp N8           &kp N9           &kp N0    &kp BSPC
-&kp LEFT_SHIFT  &none            &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN  &kp UP           &kp RIGHT        &kp HOME  &kp RSHIFT
-&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &none         &none         &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &trans
-                                                 &trans        &trans        &kp SPACE                                                                       &kp SPACE  &kp DEL   &trans
+&trans          &kp N1           &kp N2          &kp N3    &kp N4     &kp N5                                         &mmv MOVE_UP                     &kp N6      &kp N7    &kp N8           &kp N9           &kp N0    &kp BSPC
+&kp LEFT_SHIFT  &kp DOWN         &kp UP_ARROW    &kp LEFT  &kp RIGHT  &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT    &kp DOWN  &kp UP           &kp RIGHT        &kp HOME  &kp RSHIFT
+&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &none     &kp LC(C)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_NXT  &none     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &trans
+                                                 &trans    &trans     &kp SPACE                                                                       &kp SPACE   &kp DEL   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -100,12 +100,12 @@
         };
 
         layer3 {
-            display-name = "WINDOWS";
+            display-name = "WIN";
             bindings = <
-&kp ESCAPE      &kp Q  &kp D  &kp R             &kp W        &kp B                            &kp UP                &kp J      &kp F            &kp U      &kp P    &kp SINGLE_QUOTE  &kp BACKSPACE
-&td1            &kp A  &kp S  &kp H             &kp T        &kp G                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N            &kp E      &kp O    &kp I             &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp M             &kp C        &kp V    &kp K_MUTE              &kp DOWN              &kp K      &kp L            &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
-                              &kp LEFT_CONTROL  &lt 1 ENTER  &kp TAB                                                &kp SPACE  &lt 2 BACKSPACE  &kp RALT
+&kp ESCAPE      &kp Q  &kp D  &kp R             &kp W  &kp B                            &kp UP                &kp J      &kp F  &kp U      &kp P    &kp SINGLE_QUOTE  &kp BACKSPACE
+&td1            &kp A  &kp S  &kp H             &kp T  &kp G                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N  &kp E      &kp O    &kp I             &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp M             &kp C  &kp V    &kp K_MUTE              &kp DOWN              &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
+                              &kp LEFT_CONTROL  &mo 1  &kp TAB                                                &kp SPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
