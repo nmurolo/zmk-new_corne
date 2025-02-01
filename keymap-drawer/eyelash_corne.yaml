@@ -12,7 +12,7 @@ layers:
   - U
   - P
   - {t: '''', s: '"'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - '&td0'
   - A
   - S
@@ -44,7 +44,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LGUI
   - NUMBER
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
