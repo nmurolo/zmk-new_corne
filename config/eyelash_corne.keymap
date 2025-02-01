@@ -30,7 +30,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 2>, <&to 3>;
+            bindings = <&kp LCTRL>, <&mo 2>, <&to 3>;
 
             tapping-term-ms = <200>;
         };
@@ -39,7 +39,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 2>, <&to 0>;
+            bindings = <&kp LCTRL>, <&mo 2>, <&to 0>;
 
             tapping-term-ms = <200>;
             label = "TD1";
@@ -66,10 +66,10 @@
         layer0 {
             display-name = "MAC";
             bindings = <
-&kp ESCAPE      &kp Q  &kp D  &kp R     &kp W  &kp B                            &kp UP                &kp J      &kp F  &kp U      &kp P    &kp SINGLE_QUOTE  &kp BACKSPACE
-&td0            &kp A  &kp S  &kp H     &kp T  &kp G                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N  &kp E      &kp O    &kp I             &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp M     &kp C  &kp V    &kp K_MUTE              &kp DOWN              &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
-                              &kp LGUI  &mo 1  &kp TAB                                                &kp SPACE  &mo 2  &kp RALT
+&kp ESCAPE      &kp Q  &kp D  &kp R     &kp W  &kp B                                  &kp UP                &kp J      &kp F  &kp U      &kp P    &kp SINGLE_QUOTE  &kp TAB
+&td0            &kp A  &kp S  &kp H     &kp T  &kp G                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N  &kp E      &kp O    &kp I             &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp M     &kp C  &kp V          &kp K_MUTE              &kp DOWN              &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
+                              &kp LGUI  &mo 1  &kp BACKSPACE                                                &kp SPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
