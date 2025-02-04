@@ -66,10 +66,10 @@
         layer0 {
             display-name = "MAC";
             bindings = <
-&kp ESCAPE      &kp Q  &kp D  &kp R     &kp W  &kp B                                  &kp UP                &kp J      &kp F  &kp U      &kp P    &kp SINGLE_QUOTE  &kp TAB
-&td0            &kp A  &kp S  &kp H     &kp T  &kp G                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N  &kp E      &kp O    &kp I             &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp M     &kp C  &kp V          &kp K_MUTE              &kp DOWN              &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
-                              &kp LGUI  &mo 1  &kp BACKSPACE                                                &kp SPACE  &mo 2  &kp RALT
+&kp ESCAPE      &kp Q  &kp D  &kp R  &kp W         &kp B                                   &kp UP                &kp J      &kp F          &kp U      &kp P    &kp SINGLE_QUOTE  &kp TAB
+&td0            &kp A  &kp S  &kp H  &kp T         &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y      &kp N          &kp E      &kp O    &kp I             &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp M  &kp C         &kp V           &kp K_MUTE              &kp DOWN              &kp K      &kp L          &kp COMMA  &kp DOT  &kp FSLH          &kp RIGHT_SHIFT
+                              &mo 1  &kp LEFT_GUI  &kp LEFT_SHIFT                                                &kp SPACE  &kp BACKSPACE  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -91,7 +91,7 @@
             display-name = "SYMBOL";
             bindings = <
 &kp GRAVE       &kp F1        &kp F2        &kp F3            &kp F4                &kp F5                                    &mmv MOVE_UP                     &kp F6           &kp F7                 &kp F8             &kp F9     &kp F10        &kp BSPC
-&kp LEFT_SHIFT  &bt BT_CLR    &none         &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp COLON  &kp SEMI       &kp RSHIFT
+&kp LEFT_SHIFT  &none         &none         &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp COLON  &kp SEMI       &kp RSHIFT
 &trans          &out OUT_USB  &out OUT_BLE  &none             &none                 &none           &trans                    &mmv MOVE_DOWN                   &none            &kp MINUS              &kp EQUAL          &none      &kp BACKSLASH  &trans
                                             &trans            &trans                &kp SPACE                                                                  &kp SPACE        &kp SPACE              &trans
             >;
