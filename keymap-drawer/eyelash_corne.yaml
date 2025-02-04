@@ -42,12 +42,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - LGUI
   - NUMBER
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -91,8 +91,8 @@ layers:
   - RGB BRD
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
@@ -112,7 +112,7 @@ layers:
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - (
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - {type: held}
   WIN:
   - $$mdi:keyboard-esc$$
   - Q
