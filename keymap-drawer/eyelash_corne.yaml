@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: \, s: '|'}
   - NUMBER
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
